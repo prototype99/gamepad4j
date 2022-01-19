@@ -23,10 +23,6 @@ subprojects {
       provided
       compile.extendsFrom provided
   }
-
-  dependencies {
-    testCompile 'junit:junit:4.10'
-  }
 }
 
 
