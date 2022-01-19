@@ -1,8 +1,8 @@
 
 jar {
-	dependsOn configurations.runtime
+	dependsOn configurations.runtimeClasspath
 	from {
-	    (configurations.runtime - configurations.provided).collect {
+	    (configurations.runtimeClasspath - configurations.provided).collect {
 	        it.isDirectory() ? it : zipTree(it);
 	    }
 	}
