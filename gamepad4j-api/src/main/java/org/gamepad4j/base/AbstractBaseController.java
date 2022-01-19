@@ -83,7 +83,7 @@ public abstract class AbstractBaseController implements IController {
 	/**
 	 * Creates a controller wrapper.
 	 * 
-	 * @param id The deviceID of the controller.
+	 * @param deviceID The deviceID of the controller.
 	 */
 	protected AbstractBaseController(int deviceID) {
 		this(deviceID, "");
@@ -92,7 +92,7 @@ public abstract class AbstractBaseController implements IController {
 	/**
 	 * Creates a controller wrapper.
 	 * 
-	 * @param id The deviceID of the controller.
+	 * @param deviceID The deviceID of the controller.
 	 */
 	protected AbstractBaseController(int deviceID, String description) {
 		this.deviceID = deviceID;

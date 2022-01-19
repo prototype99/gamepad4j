@@ -38,7 +38,7 @@ public class BaseStick implements IStick {
 	/**
 	 * Creates a stick wrapper.
 	 * 
-	 * @param deviceID The deviceID of this stick.
+	 * @param ID The deviceID of this stick.
 	 */
 	public BaseStick(StickID ID) {
 		this.ID = ID;
@@ -48,10 +48,8 @@ public class BaseStick implements IStick {
 
 	/**
 	 * Sets the ID and number of an axis for this stick.
-	 * 
-	 * @param ID The ID of the axis.
-	 * @param axisNumber The number of the axis.
-	 */
+	 *
+     */
 	public void setAxis(IAxis axis) {
 		if(axis.getID() == AxisID.X) {
 			this.xAxis = axis;

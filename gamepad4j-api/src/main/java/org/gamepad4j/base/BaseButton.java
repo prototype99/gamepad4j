@@ -42,7 +42,6 @@ public class BaseButton implements IButton {
 	 * Creates a button wrapper.
 	 * 
 	 * @param code The numeric code of the button.
-	 * @param isAnalog Set to true if this is an analog button.
 	 * @param label The text label (may be null).
 	 * @param labelKey The text label key (may be null).
 	 */

@@ -49,7 +49,6 @@ public class BaseTrigger implements ITrigger {
 	 * Creates a trigger wrapper.
 	 * 
 	 * @param code The numeric code of the trigger.
-	 * @param isAnalog Set to true if this is an analog trigger.
 	 * @param label The text label (may be null).
 	 * @param labelKey The text label key (may be null).
 	 */
