@@ -45,7 +45,6 @@
 		<module>gamepad4j-libgdx</module>
 	     -->
 		<module>gamepad4j-api</module>
-		<module>gamepad4j-ouya</module>
 		<module>gamepad4j-desktop</module>
 		<module>gamepad4j-uberjar</module>
 	</modules>
