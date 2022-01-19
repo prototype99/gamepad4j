@@ -15,7 +15,7 @@ import org.junit.Test;
 public class ControllerListenerAdapterTest {
 
 	@Test
-	public void testAdapter() throws Exception {
+	public void testAdapter() {
 		
 	}
 }
