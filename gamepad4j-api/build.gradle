@@ -16,3 +16,7 @@ artifacts {
     archives sourcesJar
     archives javadocJar
 }
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+}
